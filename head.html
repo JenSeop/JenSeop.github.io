@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Links</title>
+    <style>
+        .nav-bar {
+            display: flex; /* 가로로 배치하기 위해 flex 사용 */
+            justify-content: space-around; /* 링크 간 공간 균등 분배 */
+            list-style-type: none; /* 기본 리스트 스타일 제거 */
+            padding: 0;
+        }
+        .nav-bar a {
+            text-decoration: none; /* 밑줄 제거 */
+            padding: 10px 20px; /* 여백 추가 */
+            color: black; /* 글자 색상 */
+        }
+        .nav-bar a:hover {
+            background-color: #f0f0f0; /* 호버 시 배경색 */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="nav-bar">
+            <li><a href="#link1">Link 1</a></li>
+            <li><a href="#link2">Link 2</a></li>
+            <li><a href="#link3">Link 3</a></li>
+            <li><a href="#link4">Link 4</a></li>
+            <li><a href="#link5">Link 5</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
