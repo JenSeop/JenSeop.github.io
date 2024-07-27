@@ -1,7 +1,7 @@
 ---
 title: JenSeop
-layout: default
-permalink: /head
+layout: /default
+permalink: /
 ---
 
 # Lorem ipsum
