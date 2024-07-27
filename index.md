@@ -1,6 +1,6 @@
 ---
 title: JenSeop
-layout: /default
+layout: ./layout/default
 permalink: /
 ---
 
