@@ -1,5 +1,5 @@
 ---
-title: /
+title: /JenSeop
 layout: home
 permalink: /
 ---
